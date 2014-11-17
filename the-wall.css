@@ -1,0 +1,108 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+body{
+	width: 1600px;
+	margin: 0px auto;
+}
+	.nestled{
+		display: inline-block;
+		vertical-align: top;
+	}
+	#left{
+		width: 1000px;
+		height: 1000px;
+		z-index: 2;
+	}
+		.user-post-container{
+			border-top: dotted RGB(235,235,235) 1px;
+			min-height: 100px;
+		}
+		.user-post-container>*{
+			display: inline-block;
+			vertical-align: top;
+			margin-top: 10px;
+		}
+		.user-box{
+			width: 120px;
+			
+			text-align: right;
+			
+			
+		}
+		.post-box{
+			width: 780px;
+			margin: 10px;
+		}
+		h2{
+			font-size: 14px;
+			color: RGB(243,41,1);
+		}
+		h5{
+			font-size: 8px;
+			color: RGB(235,235,235);
+		}
+		img{
+			padding: 0px 10px 0px 5px;
+			border-right: dotted RGB(235,235,235) 1px;
+		}
+		.old-post{
+			color: RGB(102,127,117);
+			font-size: 12px;
+		}
+	#right{
+		width: 500px;
+		height: 1000px;
+		border-top-left-radius: 30px;
+		background-color: RGB(212,89,21);
+		z-index: -1;
+	}
+		h1{
+			margin-left: -20px;
+			font-size: 120px;
+			line-height: 85px;
+			color: white;
+		}
+		h6{
+			font-size: 40px;
+			color: RGB(233,243,185);
+		}
+		#right-bottom{
+			margin-top: 10px;
+			border-top: dotted white 1px;
+			/*border-left: dotted white 1px;*/
+			border-top-left-radius: 25px;
+		}
+			#new-post,h4{
+				margin: 15px 15px 0px 15px;
+				color: RGB(233,243,185);
+			}
+			#warning{
+				color: RGB(47,157,221);
+			}
+			#right-bottom textarea{
+				width: 400px;
+				height: 200px;
+				/*padding: 2px;*/
+				border: none;
+				border-top: dotted RGB(225,37,37) 1px;
+				border-bottom: dotted RGB(225,37,37) 1px;
+				resize: none;
+				overflow: scroll;
+				color: RGB(179,45,22);
+			}
+			#post-new-message-button,#reset-button{
+				width: 400px;
+				height: 50px;
+				border: none;
+				border-top: dotted white 1px;
+				border-top-left-radius: 10px;
+				background-color: RGB(225,37,37);
+				color: white;
+			}
+			#reset-button{
+				margin-left: 15px;
+				background-color: RGB(179,45,22);
+			}
